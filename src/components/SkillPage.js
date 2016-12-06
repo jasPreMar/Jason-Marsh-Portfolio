@@ -4,12 +4,12 @@ import Header from './Header';
 
 class SkillPage extends React.Component {
   render() {
-    // const skillIds = Object.keys(this.props.skills);
+    const skillIds = Object.keys(this.props.clicked);
     return (
       <div className="skill-page">
         <Header />
         <div className="skill-page-body">
-          <h3>{this.props.details.name}</h3>
+          <h3>{skillIds}</h3>
         </div>
       </div>
     );

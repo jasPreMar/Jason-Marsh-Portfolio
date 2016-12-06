@@ -71,18 +71,7 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <SkillPage
-          details={
-            Object
-            .keys(this.state.skills)
-            .map(key => {this.state.skills[key]})
-          }
-        />
-        {/* {Object.keys(this.state.skills).map(key =>
-          <SkillPage
-          key={key} index={key} details={this.state.skills[key]} skills={this.state.skills}
-          />
-        )} */}
+        <SkillPage clicked={this.state.clicked}/>
         <SkillManage addSkill={this.addSkill} loadSamples={this.loadSamples} />
       </div>
     );
