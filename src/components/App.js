@@ -71,7 +71,11 @@ class App extends React.Component {
             </div>
           </div>
         </div>
-        <SkillPage clicked={this.state.clicked}/>
+        <SkillPage
+          skills={this.state.skills}
+          clicked={this.state.clicked}
+          // params={this.props.params}
+        />
         <SkillManage addSkill={this.addSkill} loadSamples={this.loadSamples} />
       </div>
     );
