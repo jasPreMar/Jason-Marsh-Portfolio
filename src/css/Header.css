@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+  width: calc(100% - 60px);
+  padding: 30px;
+}
+
+.header-left {
+  font-size: 15px;
+  float: left;
+  line-height: 0;
+}
+
+.header-right {
+  font-size: 15px;
+  float: right;
+  line-height: 0;
+}

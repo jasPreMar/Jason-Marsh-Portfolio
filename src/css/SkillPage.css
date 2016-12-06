@@ -1,0 +1,22 @@
+.skill-page {
+  position: relative;
+  display: inline-block;
+  width: 365px;
+  height: 667px;
+  background: white;
+  margin: 50px;
+}
+
+.skill-page-body {
+  width: 100%;
+  height: calc(100% - 60px);
+  position: absolute;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+}
+
+.skill-page-body h3 {
+  text-transform: lowercase;
+  margin-bottom: 60px;
+}

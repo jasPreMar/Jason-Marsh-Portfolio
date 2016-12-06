@@ -1,0 +1,17 @@
+.skill-manager {
+  position: relative;
+  display: inline-block;
+  width: 365px;
+  height: 667px;
+  background: white;
+  margin: 50px;
+}
+
+.skill-manager-body {
+  width: 100%;
+  height: calc(100% - 60px);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
